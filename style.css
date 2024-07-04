@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ font-weight: 400;
+
+}
+
+:root {
+    --roxo-claro: rgb(234, 14, 205);
+    --rosa-claro: rgb(238, 91, 172);
+    --rosa-forte: rgb(112, 8, 79);
+    --roxo-forte: rgb(61, 2, 57);
+    --rosa: rgb(247, 56, 161);
+    --fonte-titulo: "Playwrite NL", cursive;
+    --fonte-texto: "Playwhrite FR Moderne", cursive;
+}
