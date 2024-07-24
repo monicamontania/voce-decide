@@ -13,6 +13,29 @@
     --rosa-forte: rgb(112, 8, 79);
     --roxo-forte: rgb(61, 2, 57);
     --rosa: rgb(247, 56, 161);
-    --fonte-titulo: "Playwrite NL", cursive;
-    --fonte-texto: "Playwhrite FR Moderne", cursive;
+    --fonte-texto: "Playfair Display", serif;
+    --fonte-titulo: "Bebas Newe", sans-serif;
+}
+
+body{
+    background-color: var(--rosa);
+    color: var(--rosa-claro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--fonte-texto);
+}
+
+.caixa-principal{
+    background-color: var(--roxo-claro);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo{
+    color: var(--rosa-forte);
+    font-family: var(--fonte-titulo);
 }
