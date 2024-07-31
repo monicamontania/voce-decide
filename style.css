@@ -8,11 +8,11 @@
 }
 
 :root {
-    --roxo-claro: rgb(234, 14, 205);
-    --rosa-claro: rgb(238, 91, 172);
-    --rosa-forte: rgb(112, 8, 79);
-    --roxo-forte: rgb(61, 2, 57);
-    --rosa: rgb(247, 56, 161);
+    --azul-claro: rgb(58, 7, 159);
+    --preto: rgb(28, 8, 19);
+    --roxo-claro: rgb(81, 12, 201);
+    --azul: rgb(16, 4, 78);
+    --azul-bebe: rgb(38, 8, 192);
     --fonte-texto: "Playfair Display", serif;
     --fonte-titulo: "Bebas Newe", sans-serif;
 }
