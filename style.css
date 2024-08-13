@@ -1,25 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 *{
- margin: 0;
- padding: 0;
- font-weight: 400;
-
+    margin: 0;
+    padding: 0;
 }
 
 :root {
-    --azul-claro: rgb(58, 7, 159);
-    --preto: rgb(28, 8, 19);
-    --roxo-claro: rgb(81, 12, 201);
-    --azul: rgb(16, 4, 78);
-    --azul-bebe: rgb(38, 8, 192);
-    --fonte-texto: "Playfair Display", serif;
-    --fonte-titulo: "Bebas Newe", sans-serif;
+    --azul-forte: rgb(12, 71, 150);
+    --branco: rgb(185, 218, 238);
+    --ciano: rgb(226, 239, 240);
+    --laranja: rgb(245, 147, 122);
+    --pretinho: rgb(23, 34, 53);
+    --fonte-texto:"Playfair Display", serif;
+    --fonte-titulo: "Bebas Neue", sans-serif;
 }
 
 body{
-    background-color: var(--rosa);
-    color: var(--rosa-claro);
+    background-color: var(--branco);
+    color: var(--branco);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +25,7 @@ body{
 }
 
 .caixa-principal{
-    background-color: var(--roxo-claro);
+    background-color: var(--pretinho);
     width: 90%;
     max-width: 600px;
     text-align: center;
@@ -36,6 +33,20 @@ body{
 }
 
 .titulo{
-    color: var(--rosa-forte);
+    color: var(--laranja);
     font-family: var(--fonte-titulo);
+}
+
+button{
+    background-color: var(--azul-forte);
+    color: var(--laranja);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.3s;
+    margin: 10px 10px;   
+}
+
+button:hover{
+    background-color: var(--branco);
 }
