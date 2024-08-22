@@ -1,22 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');{
+    
+}
+
+{
+
     margin: 0;
     padding: 0;
 }
 
 :root {
-    --azul-forte: rgb(12, 71, 150);
-    --branco: rgb(185, 218, 238);
-    --ciano: rgb(226, 239, 240);
-    --laranja: rgb(245, 147, 122);
-    --pretinho: rgb(23, 34, 53);
+    --rosa-fraco: #f08080ff;
+    --rosa: rgb(250, 49, 163);
+    --laranja-fraco: rgb(254, 132, 193);
+    --bage: rgb(245, 69, 169);
+    --laranja: rgb(248, 242, 245);
     --fonte-texto:"Playfair Display", serif;
     --fonte-titulo: "Bebas Neue", sans-serif;
 }
 
 body{
-    background-color: var(--branco);
-    color: var(--branco);
+    background-color: var(--rosa);
+    color: var(--rosa);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +29,7 @@ body{
 }
 
 .caixa-principal{
-    background-color: var(--pretinho);
+    background-color: var(--laranja-fraco);
     width: 90%;
     max-width: 600px;
     text-align: center;
@@ -38,8 +42,8 @@ body{
 }
 
 button{
-    background-color: var(--azul-forte);
-    color: var(--laranja);
+    background-color: var(--laranja);
+    color: var(--rosa-fraco);
     border: none;
     border-radius: 15px;
     padding: 15px;
@@ -48,5 +52,5 @@ button{
 }
 
 button:hover{
-    background-color: var(--branco);
+    background-color: var(--rosa);
 }
